@@ -27,7 +27,7 @@ while(True):
         print("test-2")
         if(count<1):
             callscraper()
-            InstagramAPI = InstagramAPI("todayilearnedbot", "Kingminos27")
+            InstagramAPI = InstagramAPI("usrnm", "pswd")
             InstagramAPI.login()  # login
             photo_path = 'post.jpg'
             caption = "Beep-Bop, I'm a bot. \n "
